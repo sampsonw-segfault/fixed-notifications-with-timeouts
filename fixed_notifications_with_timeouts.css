@@ -1,0 +1,53 @@
+div.fnwt_error, div.fnwt_notification, div.fnwt_success, div.fnwt_warning
+{
+	width:60%;
+	position: fixed;
+	margin: 0px auto 0px auto;
+	z-index: 10000;
+	left: 0px;
+	right: 0px;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+	display: none;
+	
+}
+
+button.fnwt_close
+{
+  cursor: pointer;
+  float: right;
+}
+
+div.fnwt_notification_content
+{
+  float: left;
+}
+
+div.fnwt_error
+{
+  border: 1px solid #b8545c;
+  background-color: #c7787e;
+/*red*/
+}
+
+div.fnwt_notification
+{
+  border: 1px solid #545cb8;
+  background-color: #787ec7;
+/*blue*/
+}
+
+div.fnwt_success
+{
+  border: 1px solid #5cb854;
+  background-color: #7ec778;
+/*green*/
+}
+
+div.fnwt_warning
+{
+  border: 1px solid #e8db38;
+  background-color: #ede366;
+/*yellow*/
+}
