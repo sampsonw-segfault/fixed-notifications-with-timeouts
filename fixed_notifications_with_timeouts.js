@@ -21,6 +21,7 @@ function fixed_notification(){
 				
 				this.notification_object.className = "fnwt_"+notification_type;
 				this.notification_content.appendChild(message+'<br>');
+				this.notification_object.style.display = 'block';
 				
 				this.timeout_id = window.setTimeout(function(){
 					this.notification_object.style.display = 'none';
